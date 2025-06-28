@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you were wondering: Why do I never get seeds when destroying grass? Because. \n\nUse your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.",
+      "desc:8": "If you were wondering: Why do I never get seeds when destroying grass? Because.\n\nUse your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -48,9 +48,9 @@
         },
         "1:10": {
           "Count:3": 2,
-          "Damage:2": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "TConstruct:GravelOre"
+          "id:8": "dreamcraft:ZincGravelOre"
         },
         "2:10": {
           "Count:3": 1,

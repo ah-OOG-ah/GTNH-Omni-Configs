@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 74
+      "questIDLow:4": 1148
     }
   },
   "properties:10": {
@@ -59,10 +59,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 40,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:item.CoinFarmerI"
         }
       },
       "taskID:8": "bq_standard:retrieval"
