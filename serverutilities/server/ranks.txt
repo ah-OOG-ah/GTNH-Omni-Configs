@@ -3,7 +3,7 @@
 [player]
 default_player_rank: true
 power: 1
-serverutilities.claims.max_chunks: 100
+serverutilities.claims.max_chunks: 10000
 serverutilities.chunkloader.max_chunks: 50
 serverutilities.homes.max: 1
 serverutilities.homes.warmup: 5s
