@@ -61,7 +61,7 @@ IC2 Crops can receive bonus environmental statistics based on biome
 Weeds spread to empty crop sticks and destroy other crops
 Use Machine Hulls or Transvector Interfaces to ease machine access
 Steam flowing through pipes or coming out of machines hurts!
-You can use Fortune on Brittle Charcoal from the Charcoal Pile Igniter
+Fortune does NOT increase drops from Brittle Charcoal from the Charcoal Pile Igniter
 Pay attention to Voltage and Amperage of cables and machines!
 Warp is no fun, got a wither in your base already?
 There are fourteen Voltage tiers: from LV(32V) to MAX(2147483647V)
@@ -101,8 +101,6 @@ GT stands for Grind and Tedium
 Don't go out at night! Mobs can have up to 300 HP
 Steam is hot! It will burn Wooden Fluid Pipes
 Don't break Rubber Trees without a Treetap
-Make Muffler Moint Mup (Point up)
-Your EBF won't work if the muffler doesn't point to the sky!
 Eating too many of the same food will make you hate it!
 #Remember to check if there are Natura clouds when you launch a rocket!
 Abandon all vanilla knowledge all ye who enter here
