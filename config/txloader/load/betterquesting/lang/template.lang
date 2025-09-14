@@ -51,7 +51,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAADA.desc=Epic quest: Kill some sheep! (A
 
 # Quest: SO...TIRED...MUST...SLEEP...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.name=§9§lSO...TIRED...MUST...SLEEP...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.desc=Sleepy time, and the end of the tutorial.%n%nCongratulations! You've built your first hideout, and you should have a steady supply of food by now.%n%nSee you again in Tier 0!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.desc=Sleepy time, and the end of the tutorial.%n%nCongratulations! You've built your first hideout, and you should have a steady supply of food by now.%n%nSee you again in Tier 0!%n%n[note](Any color bed will complete this quest)[/note]
 
 # Quest: Collecting Some Berries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1Q.name=§9§lCollecting Some Berries
@@ -450,10 +450,6 @@ betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.desc=Now that you got your first pap
 # Quest: Your First Flint Sword
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.name=§2§lYour First Flint Sword
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.desc=It's time to upgrade your wooden sword a little.%nCollect flint bones and a stick.%n%nYou won't be able to kill a Wither with it now, but you can upgrade and improve this tool later. You can also repair it with flint.
-
-# Quest: NEI is EVEN MORE POWERFUL NOW?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI is EVEN MORE POWERFUL NOW?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI now automatically collapses similar items into one slot making browsing much faster! To collapse/uncollapse a group use ALT+LMB.%nYou can also create your own presets with custom groups!%n%n[note]You can disable this functionality in NEI settings[/note]%n%nAlso now NEI has JEI-like Advanced Search:%n%n@ - search by mod (@minecraft)%n%n[note]There are even more special characters that you can use but most of them are off by default (e.g. no need to use # to search in tooltip), below are all the special characters, check which ones are on/off in NEI settings.%n%nSpace is used as a logical AND between different conditions%n# - search by tooltip (#UV-Tier)%n& - search by id: (&95:15 extratrees:door)%n$ - search by ore dictionary ($ore)%n%% - search by subsets (%%block)%n| - logical or. multi-item search (wrench|hammer)%n- - logical not. exclude items that match the following expression (-@minecraft)%n" - multiple words wrapped in quotes are treated as one condition rather than several ("White Stained Glass")%n%nSearch Mode (apply on search parts, not full string):%nPlain - simple string%nExtended - allow only ?, * rules (by default)%nRegex - allow full regex%n%nIn Extended Search Mode:%n? - any character (@min?craft)%n* - any few characters (@m*ft = @minecraft)%nr/.../ - standard java regex (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]You can disable this functionality in NEI settings.[/note]%n%nYou can add bookmarks with the A key while hovering over an item, also:%nHold SHIFT to bookmark the whole recipe%nHold CTRL to bookmark number of items%nHold SHIFT + CTRL to bookmark both recipe and all the number of all the items it contains
 
 
 ## Quest Line: Tier 0.5 - Steam
@@ -2478,7 +2474,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXQ.desc=Tungstensteel is needed in all 
 
 # Quest: Empty Epoxid Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.name=§a§lEmpty Epoxid Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require an epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an Advanced Circuit Board.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require an epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an Advanced Circuit Board.%n%n[note]If you used IC2 Scrapboxes to obtain the empty boards instead of using epoxy, hold 64 Advanced Circuit Boards in your hand to unlock this quest.[/note]
 
 # Quest: Radon Loop
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.name=§a§lRadon Loop
@@ -4752,11 +4748,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=The cropnalyzer is a powered to
 
 # Quest: Crop Automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop-Matron is a LV machine that will monitor crops in a 11x11x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery. A Lithium Ion will last about 2 hours.%n%nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in a 11x5x11 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
 
 # Quest: Weed Ex
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.%n%nUsage:%nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop-Matron to automatically apply it to your crops.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.%n%nUsage:%nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop Manager to automatically apply it to your crops.
 
 # Quest: Reed and Resin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Reed and Resin
@@ -4873,10 +4869,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.desc=Now that you have dough, there 
 # Quest: No Chicken Escapes!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=No Chicken Escapes!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=Do you like pies? I sure do! There are many varieties of pies available for you. The chicken pot pie is one of the easiest to make. Just a chicken, potato, carrot, and some dough. The fruit pies are a little simpler, so they don't quite restore as much saturation, but are great for filling tummies while you wait for the best foods to wear off.
-
-# Quest: Robotic Crop Pickers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg.name=Robotic Crop Pickers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg.desc=The Crop Harvester will pick your crops in an 11x11x3 range for you. Since the multifarm is now HV, you'll want to consider making these to automate your crops.%n%nYou'll need a cropnalyzer in it if you want it to harvest at the optimal time. Otherwise, it will attempt to harvest them whenever it's possible. For example, you want it for stickreed, or it will harvest at stage 2 (harvesting sugar canes) instead of 4 (harvesting sticky resin).
 
 # Quest: You Can't Tell Them Apart Either?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=You Can't Tell Them Apart Either?
@@ -7552,7 +7544,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZQ.desc=The Lapotronic Energy Orb is th
 
 # Quest: One BILLION EU
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.name=One BILLION EU
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A. See the GT++ tab for details.%n%n[note]These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A.%n%n[note]These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.[/note]
 
 # Quest: Storage of the Gods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGg.name=Storage of the Gods
@@ -8272,7 +8264,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADKQ.desc=The Avaritia 9x9 dire crafting 
 
 # Quest: Rocket Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.name=Rocket Tier 1
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n§cIf you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n§cIf you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 1 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKw.name=Tier 1 Control Computer
@@ -8392,7 +8384,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.name=Rocket Tier 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Find Some Meteoric Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkg.name=Find Some Meteoric Iron
@@ -8408,7 +8400,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlA.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.name=Rocket Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Recycle Your Rocket and Save the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.name=Recycle Your Rocket and Save the Environment
@@ -8488,7 +8480,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.name=Rocket Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 3 Lander
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsA.name=Tier 3 Lander
@@ -8568,7 +8560,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvQ.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.name=Rocket Tier 5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Heavy Duty Nose Cone Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvw.name=Heavy Duty Nose Cone Tier 3
@@ -8632,7 +8624,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.name=Rocket Tier 6
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n[note]If you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 7 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.name=Tier 7 Heavy Duty Plates
@@ -8640,7 +8632,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 7
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.name=Rocket Tier 7
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 8 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.name=Tier 8 Heavy Duty Plates
@@ -8648,7 +8640,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: RP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=RP-1 Rocket Fuel
@@ -8740,7 +8732,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpA.desc=The Ultra Heavy oxygen tank is 
 
 # Quest: NASA Workbench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuA.name=NASA Workbench
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuA.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.%n%n[note]Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.[/note]%n%n[note]Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuA.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.%n%n[note]Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.[/note]%n%n[note]Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.[/note]%n%n[warn]For ALL Rocket Quests: If you forget to complete a part quest before crafting the rocket, you can simply hold the completed rocket and those quests will autocomplete, no need to make duplicate parts.[/warn]
 
 # Quest: Proteus Dungeon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvg.name=Proteus Dungeon
@@ -8772,7 +8764,7 @@ betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to ac
 
 # Quest: A T0 Rocket? What?
 betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.name=A T0 Rocket? What?
-betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.desc=You can't use this rocket to go to any planet or moon §oand§r it's the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.%n%nThe Shuttle Rocket needs the same fuel as the T8 Rocket.
+betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.desc=You can't use this rocket to go to any planet or moon §oand§r it's the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.%n%nThe Shuttle Rocket needs the same fuel as the T8 Rocket.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: No Boss Needed! How Sad!
 betterquesting.quest.gAchVo6VSBO5lRyjs6Rpow.name=No Boss Needed! How Sad!
@@ -9298,9 +9290,13 @@ betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=Same as 1k.
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=AE Tier 2 Fluid Storage
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=This Processor allows you to craft 256k, 1024k, 4096 and 16384k Fluid Storage Components.%n%nThese Components need to be paired with Advanced Fluid Storage Housings to turn them into Fluid Storage Cells.
 
+# Quest: Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.name=Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.desc=To make an entangled pair for usage in the quantum ring, put the Singularity and Enderpearl Dust on the ground, then use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.%n%n[note]QESs are each a unique pair and will only work with one another.[/note]
+
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=Cribs
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUIV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUEV-Tier§r
 
 # Quest: Need More Information?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Information?
@@ -9362,9 +9358,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.name=Insurgence
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator. That probably causes a lot of lag.%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
 
-# Quest: That is not storage!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=That is not storage!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.
+# Quest: Item Void Cell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=Item Void Cell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]%n%n[note]Will only void items, not fluids[/note]
 
 # Quest: Co-Processing x16
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABiA.name=Co-Processing x16
@@ -9393,10 +9389,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6A.desc=Largest vanilla storage compone
 # Quest: 64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.name=64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.desc=Component of the crafting CPU which provides 65,536 bytes of storage for crafting.
-
-# Quest: Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.name=Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64.
 
 # Quest: Filling Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6w.name=Filling Tanks
@@ -9438,8 +9430,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=Allows you to configure which u
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.name=Dense Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.desc=Giving your network even more stability. Dense energy cells store AE energy up to 16 million units. They do not accept power directly but are used to buffer power in an already existing ME Network.
 
-# Quest: ME in the Ether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=ME in the Ether
+# Quest: Wireless Applied Energistics Terminal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=Wireless Applied Energistics Terminal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.desc=After you link up the wireless terminal in the ME security terminal, it grants portable access to the ME network. Put it into a charger to recharge it.%n%nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.%n%nCharge your Wireless Terminals (and the successors) with an EIO Wireless Charger if you don't want to wait a century for them to charge.
 
 # Quest: Annihilation and Formation
@@ -9528,7 +9520,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=A specialized version of the ME
 
 # Quest: ME in Your Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.name=ME in Your Cleanroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%n%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.%n%n[note]Also, these are more TPS friendly than large chains of dense cables![/note]
 
 # Quest: Ore Dictionary Output
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.name=Ore Dictionary Output
@@ -9536,7 +9528,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=The ME ore dictionary export ca
 
 # Quest: To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=To Link P2P Buses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.%n%nIf you're doing more advanced operations in a large network of P2Ps, it's recommended you use the advanced memory card. It has a helpful UI that allows you to visualize and set names, inputs, and outputs of P2P tunnels. %n%n[note]Remember P2Ps can only have 1 input! The only exception being fluid P2Ps whos input can function as an output and whos outputs can function as an input.[/note]
 
 # Quest: Smart cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=Smart cables
@@ -9640,7 +9632,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5g.desc=You may have noticed that the M
 
 # Quest: Singular Singularities Signify Something
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.name=Singular Singularities Signify Something
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you'll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.%n%nThen put the Singularity and Enderpearl Dust on the ground and use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.%n%nQESs are each a unique pair.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you'll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.%n%nThese singularities have a few purposes. Primarily they are used in creating quantum entangled singularities for the quantum ring, but they can also be used to create void cells and a couple other useful items.
 
 # Quest: Quantum Bridging Your Outposts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.name=Quantum Bridging Your Outposts
@@ -9664,7 +9656,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7A.desc=The ME Fluid Auto Filler will a
 
 # Quest: Wireless 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.name=Wireless 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=This is the good wireless terminal. It even has crafting. There's a bit of lag when you open it, but the convenience it worth it, right? You can't pull out fluids, but you can hold on to the universal one if you want.%n%nThe Magnet Card does not pull items to you. Instead, it allows you to automatically deposit them into the network. You can right-click to change the white/blacklist, or shift-right-click to change the mode.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=This is the good wireless terminal. It allows you to combine 6 different types of terminals into one ultimate terminal for usage on the go; Crafting, Patterning, Fluid, Essentia, Interface, & Level Emitter.%n%nIf you make the full version, it even allows you to program large fluid processing patterns without needing LuV parts to make the terminal first.%n%n[note]Recommended to set a keybind for this so you don't need to keep it in your hotbar.[/note]
 
 # Quest: Cut the Power!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8A.name=Cut the Power!
@@ -9902,6 +9894,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of tec
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2 Fluid Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=Fluid crafting directly integrated in your ME system. NO WAY!%n%nAE2FC is a powerful addon that was backported for GTNH.%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a Fluid Terminal or a Fluid Processing Terminal for the Assembly Line.%n%nWhen creating patterns you will notice your fluids being placed as if they were items.%nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock.%n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids. It is not needed, but you can use it to automate things with item and fluid conduits.%n%nIf you want to automate single blocks it's as easy as eating chocolate cake while on a diet:%nMake the pattern, make an interface, boom- done! It will automatically insert the fluid in the fluid inventory of a single block machine.%n%nEven automating more difficult things like the Assembly Line becomes much easier with these tools.%n%nIf you need more detailed information, visit the wiki:%n%n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]%n%n[note]The Extra Cells mod has been removed. Any old components and cells were converted to AE2 and AE2FC parts where possible.[/note]
 
+# Quest: Starting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=§5§lStarting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§nApplied Energistics 2 is an integral part of GTNH gameplay. %n§r%nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.%n%nThere is a lot to learn, but don't feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:%n%n§2§2§1§b§r§21. The Wiki:§r§r§o§o §o§o§r[url]§o§o§rhttps://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n§r- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you're struggling or want a point of reference.%n%n%n§b§r§22. The Discord: §o§r[url]https://discord.gg/EXshrPV[/url]%n%n§r- The Discord is full of experienced AE2ers', check out #ae2-help to find plenty of people who will take time to help you figure something out.%n%n%n§b§r§23. Video Tutorials: §r[url]§o§rhttps://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n§r- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There's an advanced version as well.
+
+# Quest: Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.name=Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit is a must have for heavy wireless users. Instead of being a 1:1 back and forth it allows you to enter a "queuing mode" and a "binding mode" where you can select multiple targets at one time to bind in a row.%n%nWhen binding to connectors, the kit will bind connectors in the exact order that they were queued in. %n%nTo clear a queue and reset the kit, just shapelessly craft it into itself in your inventory.
+
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=These hold 8,388,608 units of essentia.%n%nAnd can hold 48 types.
@@ -9918,9 +9918,17 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=Hyper Acceleration!
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic acceleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick%n
 
+# Quest: Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.desc=Now that you've unlocked the neutronium energy cell, you can combine it with other objects to make powerful upgrades to your AE capabilities.%n%nCombining with an ME controller gives you a controller with infinite energy.%n%nCombining with a cable anchor & quartz fiber gives you a replacement for the quartz fiber cable that has infinite energy.%n%nCombining with an advanced card will give you an energy card that will allow you to upgrade your wireless terminal to have infinite energy, wherever you go.%n%n[note]It is HIGHLY recommended you use these tools wherever possible on main-nets and sub-nets as they are huge TPS savers[/note]
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
+
+# Quest: Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.name=Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.desc=The Super Stock Replenisher is an incredibly useful item, especially for those pesky loop automations!%n%nTo use, put a storage cell in the empty slot (item vs fluid & type amount do not matter) and you can set up to 63 items & 9 fluids to be stocked by the machine. The total quantity of both items and fluids are determined by the byte size of the storage cell.%n%nWhen an item / fluid is stocked, it will pull it from the ME network it is attached to and those items / fluids will become invisible to your network. You can then use a storage bus to make these items visible to a subnet. Items will not be able to re-enter the block once pulled out.%n%n[note]When an item or fluid is erased from the stocker or when the stocker is broken, everything will return to the network the stocker was attached too, so no need to panic about losing items.[/note]
 
 # Quest: And Another Digital Singularity
 betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=And Another Digital Singularity
@@ -9970,9 +9978,9 @@ betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of 
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=Going Superluminal
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.%n%n[note]Superluminal Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)§r%n%nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of:%n%n§61x Cards: 33,554,432 items/tick%n2x Cards: 2,147,483,648 items/tick%n3x Cards: 137,438,953,472 items/tick%n%n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 33,554,432,000 mb/tick%n2x Cards: 2,147,483,648,000 mb/tick%n3x Cards: 137,438,953,472,000 mb/tick%n%n
 
-# Quest: Wireless 2.5 - All in One
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.name=Wireless 2.5 - All in One
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.desc=By combining various wireless terminals, you can create the ultimate 7-in-1 wireless terminal.%n%n§3You can combine this with infinity booster card for unlimited range across all dimensions.
+# Quest: Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.name=Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.desc=[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]%n%n[note]Will only void fluids, not items[/note]
 
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...with Fluid Support!
@@ -10001,6 +10009,10 @@ betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=Works like stocking input bus b
 # Quest: Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]%n%n§6Overflow Void Card:§r %n%nOverflow Void Cards will cause the ME Storage Cell to void excess inputs%n%n§6Pattern Refiller Card:§r %n%nThe Pattern Refiller card will refill empty patterns in your Processing and Fluid Processing Terminals.%n%n§6Sticky Card:§r %n%nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. %n%n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]
+
+# Quest: Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.name=Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.desc=The Wireless Connector also has a HUB upgrade! These Wireless HUBs can be linked to many wireless connectors at once so you won't need to spam a chunk of 1:1 connectors into one spot. Keep in mind there is still a 32 channel limitation.%n%n[note]Great for placing on controller faces![/note]
 
 # Quest: 1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k Essentia Storage Cell
@@ -10033,7 +10045,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.desc=The best you can get, for all y
 
 # Quest: To Play God
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.name=To Play God
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.desc=In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be available only on Mars. You will be able to continue, once you've arrived there.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you'll understand why you should look into the Genetics mod.%n%n[note]Make sure to make more with the Vat once you can actually make it.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.desc=In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be most readily available from fluid pockets on Mars. You will be able to continue, once you've aquired this.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you'll understand why you should look into the Genetics mod.%n%n[note]Make sure to make more with the Vat once you can actually make it.[/note]
 
 # Quest: Upgraded Home
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-w.name=Upgraded Home
@@ -12317,7 +12329,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.desc=In order to get started with yo
 
 # Quest: Offerings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.name=Offerings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.desc=For all your offering needs. And of course, it looks fancy!%n%nAn altar is created by placing six altar blocks in a 2x3 pattern; you will know it's correct when a red cloth appears over the top of the altar.%n%nRight-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery, or certain kettle or cauldron recipes.%n%nThe maximum amount of power available is determined by how many natural items are in the vicinity of the altar: dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).%n%nCertain objects (or foci) placed on the altar boost its focusing capabilities. This can increase the rate at which the altar replenishes focus, the focus capacity, and the focus range. Only one of each type of item (skull, chalice, etc.) has an effect. There may also be other less savory foci that dark magic practitioners could make use of.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.desc=For all your offering needs. And of course, it looks fancy!%n%nAn altar is created by placing six altar blocks in a 2x3 pattern or by placing nine altar blocks in a 3x3 pattern.; you will know it's correct when a red cloth appears over the top of the altar.%n%nRight-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery, or certain kettle or cauldron recipes.%n%nThe maximum amount of power available is determined by how many natural items are in the vicinity of the altar: dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).%n%nCertain objects (or foci) placed on the altar boost its focusing capabilities. This can increase the rate at which the altar replenishes focus, the focus capacity, and the focus range. Only one of each type of item (skull, chalice, etc.) has an effect. There may also be other less savory foci that dark magic practitioners could make use of. %n%n [note]P.S. The 3x3 Altar doesn't provide any practical benefits over its 3x2 counterpart, however enjoy the increased ability to center it within your builds.[/note]
 
 # Quest: ...Cauldron Bubble
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABTg.name=...Cauldron Bubble
@@ -14256,7 +14268,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXw.desc=The bronze javelin is a bit exp
 
 # Quest: Your First Flint Throwing Knife
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.name=§2§lYour First Flint Throwing Knife
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.%n%nThe knives should be in your inventory if you want to pick up the ones you fired. You can't pick them up if the knives are in Battlegear slots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.%n%nThe knives should be in your inventory if you want to pick up the ones you fired.
 
 # Quest: Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.name=§6§lPower of the Sun
@@ -14496,7 +14508,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.desc=This block provides unlimited A
 
 # Quest: Wireless 3.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=Wireless 3.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n[warn]Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.[/warn]%n%n[note]Many bugs were fixed. Maybe it's better now?[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!
 
 # Quest: Obtaining Ender Pearls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§lObtaining Ender Pearls
@@ -14662,9 +14674,21 @@ betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§lMultiblock Revolution
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where the so-called multiblocks come in. There's a variety of steam multiblocks available to you - go have a look at the Mass Processing quest tab!%n%nThis tab introduces you to a wide range of extremely powerful multiblock machines that can replace your old, worn-out singleblocks (and some that can replace your old multiblocks!). Many of these new machines will require you to handle additional mechanics and requirements, but it will be worth it!%n%nHere are some terms you should be familiar with as you enter the world of multiblocks:%n%nOverclock (OC):%nIf a machine can handle at least 4 times the voltage that is required for a recipe, it will overclock - causing it to require 4x the EU/t but also run 2x as fast. This can happen multiple times!%n%nPerfect Overclock (Often phrased as "Does not lose efficiency when overclocked):%nSome machines conditionally (or unconditionally) perform perfect overclocks: in this case, the machine will require 4x the EU/t, but it will run 4x as fast instead, leading to both increased speed and no net increase in the total eu usage!%n%nParallel (Often phrased as "Processes x items"):%nMachines which parallel act as if they are running multiple of themselves - that is to say, they are able to perform multiple of the same recipe at the same time, using the recipe's EU/t multiplied by the number of parallels. Machines which parallel will [warn]PRIORITIZE[/warn] this behavior over overclocking, which is good for you! Parallels are more efficient.%n%n[note]When working with multiblocks, if power is interrupted during operation, your inputs will be lost forever... careful![/note]
 
+# Quest: NEI Next Level Recipe Search
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.name=§2§lNEI Next Level Recipe Search
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=NEI recipe search got improved even further!%n%nSelect a search mode extended+ to try it out!%n%nHere backticks `` are used around the search queries. You don't need them when searching.%n%nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it would return all the recipes where there's at least one item that doesn't have §o"dust"§r.%n%nLet's say you want to search only in §linputs§r. Put §a<§r before your search query to do that! For example `§a<§riron` returns all the recipes with §o"iron"§r in one of the §linputs§r, `§a<§rsteel§5@gregtech§r` returns the recipes with at least one item from mods, containing §9Gregtech§r in their name, with §o"steel"§r.%n%nBut then, if you search by `§a<§1-§rdust` it still returns the recipes with §o"dust"§r on the left. Why is that? Because §a<§r searches among §lany§r items. So if there's one item that doesn't have §o"dust"§r, then it would still match the recipe, even if the rest of the inputs are dusts.%n%nTo solve this use §a<&§r instead. Like this: `§a<&§1-§rdust`. It returns §lall§r the recipes without §o"dust"§r among the inputs! §a<&§r sets a §lstrict§r condition on §lall§r inputs, unlike §a<§r that sets a condition on §lany§r input.%n%nTo filter the §loutputs§r use §a>§r and §a>&§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a>§rgold` gives you the recipes with at least one §loutput§r with §o"gold"§r. And `§a>&§rgold` gives you the recipes with §o"gold"§r in every outputted item.%n%nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a<§riron§a>§rsteel`, `§a<&§r §1-§b$dust§r §a<§r cell`, `§a>&§1-§rdust cell`.%n%nOr even for `dust§a>§rcell`. Here the non-prefixed part works like default, searching among §lany§r items from the inputs or outputs. So this query returns the recipes with §o"dust"§r in one of the inputs or outputs and §o"cell"§r in one of the outputs.%n%nIn some recipes you might have items that don't belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^&§r` respectively.%n%nYou could add spaces for readability too, because (unless you have space mode on) spaces could be used anywhere while in extended+ mode.
+
+# Quest: NEI Next Level Search
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.name=§2§lNEI Next Level Search
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.desc=NEI search got improved even further!%n%nSelect a search mode extended+ to try it out!%n%nExtended+ works pretty much like extended, but it doesn't support * and ? expanding in the names. Also the following symbols have to be escaped with a `\`: `-` (dash) `<` and `>` (less-than and more-than) `^` (caret) `{` and `}` (curly brackets) `|` (vertical bar) `\` (backslash) ` ` (space) `"` (quote) alongside with the prefixes that you have enabled like §5@§r or §b$§r.%n%nExamples: §5@§oElectro\-Magic§r, §oiron\ ingot§r, §oPB\&J§r.%n%nExtended+ adds some QoL to your everyday search experience and an improved recipe search (next quest). In the following backticks `` are used around the search queries. You don't need them when searching.%n%nWant to search for something without having to put a backslash before every other symbol? Use quotes! You could use a quote inside quotes too, but you would have to escape it. Like this: `§6"§r\"§6"§r`.%n%nUse curly brackets §7{}§r to group conditions. Searching for `§7{§rmytryl§7|§rmanasteel§7}§r hammer head` would show you hammer heads made out of mytryl or manasteel.%n%nSpace is no longer necessary to use. So `§7{§rmytryl§7|§rmanasteel§7}§rhammer` works too!%n%nThere's a space mode support, so if you want your spaces to work literally turn it on!%n%nQuotes no longer require a closing quote. So you could search for `§6"§riron ingot` and it would work! You still do need a quote if you want your quotes to end though.%n%nRegex syntax got simplified (though the old one is still supported). Now instead of `§br/§rsome regex§b/§r` you could search for `§b/§rsome regex` and it would work too! You still do need a slash if you want your regex to end. Regex doesn't require escaping, the same way quotes don't, with the only exception being the `/`. So to find a slash with a regex you would search with `§b/§r\/`.%n%nYou can use quotes or regex after prefix to search with them instead of a plain text. For example, use `§5@§6"§5chest minecarts§r` to search for items from the §9Iron Chest Minecarts§r mod. Or `§5@§b/§5chest minecarts§r` to do the same with a regex.
+
 # Quest: Iron Barrel
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
+
+# Quest: NEI is EVEN MORE POWERFUL NOW?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI is EVEN MORE POWERFUL NOW?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI now automatically collapses similar items into one slot making browsing much faster! To collapse/uncollapse a group use ALT+LMB.%nYou can also create your own presets with custom groups!%n%n[note]You can disable this functionality in NEI settings[/note]%n%nAlso now NEI has JEI-like Advanced Search:%n%n@ - search by mod (@minecraft)%n%n[note]There are even more special characters that you can use but most of them are off by default (e.g. no need to use # to search in tooltip), below are all the special characters, check which ones are on/off in NEI settings.%n%nSpace is used as a logical AND between different conditions%n# - search by tooltip (#UV-Tier)%n& - search by id: (&95:15 extratrees:door)%n$ - search by ore dictionary ($ore)%n%% - search by subsets (%%block)%n| - logical or. multi-item search (wrench|hammer)%n- - logical not. exclude items that match the following expression (-@minecraft)%n" - multiple words wrapped in quotes are treated as one condition rather than several ("White Stained Glass")%n%nSearch Mode (apply on search parts, not full string):%nPlain - simple string%nExtended - allow only ?, * rules (by default)%nRegex - allow full regex%n%nIn Extended Search Mode:%n? - any character (@min?craft)%n* - any few characters (@m*ft = @minecraft)%nr/.../ - standard java regex (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]You can disable this functionality in NEI settings.[/note]%n%nYou can add bookmarks with the A key while hovering over an item, also:%nHold SHIFT to bookmark the whole recipe%nHold CTRL to bookmark number of items%nHold SHIFT + CTRL to bookmark both recipe and all the number of all the items it contains
 
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§lDark Steel Chest
@@ -14672,10 +14696,14 @@ betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=After embracing the dark side y
 
 # Quest: Thaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=Thaumometric Essentia Cell
-betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you've finally discovered a way to access its unlimited Essentia supply. The Thaumometric Essentia Cell is your tool for extracting Essentia from this boundless source—think of it as your unlimited magic credit card.%n%nUnfortunately, you must filter each type of Essentia in your Essentia Cell Workbench. If only your technology were more advanced...
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you've finally discovered a way to access its unlimited Essentia supply. The Thaumometric Essentia Cell is your tool for extracting Essentia from this boundless source—think of it as your unlimited magic credit card.
 
 
 ### Quests in no quest lines ###
+
+# Quest: Trigger: Rocket Shuttle Skip
+betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
+betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=No Description
 
 # Quest: Trigger: LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=Trigger: LoC
@@ -14805,9 +14833,29 @@ betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=No Description
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=Trigger: Early Scribing Tools
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 
+# Quest: Trigger: Rocket Tier 3 Skip
+betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.name=Trigger: Rocket Tier 3 Skip
+betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.desc=No Description
+
+# Quest: Trigger: Rocket Tier 4 Skip
+betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.name=Trigger: Rocket Tier 4 Skip
+betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.desc=No Description
+
+# Quest: Trigger: Rocket Tier 1 Skip
+betterquesting.quest.VoVbERmlQRGNglekP68u-Q.name=Trigger: Rocket Tier 1 Skip
+betterquesting.quest.VoVbERmlQRGNglekP68u-Q.desc=No Description
+
+# Quest: Trigger: Rocket Tier 5 Skip
+betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.name=Trigger: Rocket Tier 5 Skip
+betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.desc=No Description
+
 # Quest: Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
+
+# Quest: Trigger: Rocket Tier 2 Skip
+betterquesting.quest.duath_FBQVqyzgYn4PicxA.name=Trigger: Rocket Tier 2 Skip
+betterquesting.quest.duath_FBQVqyzgYn4PicxA.desc=No Description
 
 # Quest: Trigger: SMD Inductor Skip
 betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=Trigger: SMD Inductor Skip
@@ -14817,9 +14865,17 @@ betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=No Description
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.desc=No Description
 
+# Quest: Trigger: Rocket Tier 7 Skip
+betterquesting.quest.jAZpo1cHR56fqHckKP14lw.name=Trigger: Rocket Tier 7 Skip
+betterquesting.quest.jAZpo1cHR56fqHckKP14lw.desc=No Description
+
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=No Description
+
+# Quest: Trigger: Epoxy Board Skip
+betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.name=Trigger: Epoxy Board Skip
+betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.desc=No Description
 
 # Quest: Trigger: Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger: Nether Skip
@@ -14828,3 +14884,11 @@ betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=No Description
 # Quest: Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=No Description
+
+# Quest: Trigger: Rocket Tier 6 Skip
+betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=Trigger: Rocket Tier 6 Skip
+betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=No Description
+
+# Quest: Trigger: Rocket Tier 8 Skip
+betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=Trigger: Rocket Tier 8 Skip
+betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.desc=No Description
