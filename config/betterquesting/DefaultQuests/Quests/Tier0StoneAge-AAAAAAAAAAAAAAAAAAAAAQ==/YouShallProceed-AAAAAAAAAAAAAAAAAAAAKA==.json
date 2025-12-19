@@ -28,7 +28,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lYou Shall Proceed",
+      "name:8": "§a§lYou Shall Proceed",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -197,9 +197,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:blockMachine"
+          "id:8": "etfuturum:blast_furnace"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
