@@ -1,16 +1,12 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -1663909569982545142,
-      "questIDLow:4": -4646567102207181371
+      "questIDHigh:4": -2214821378463936942,
+      "questIDLow:4": -6770209432224401378
     },
     "1:10": {
       "questIDHigh:4": 2345791078736349427,
       "questIDLow:4": -8332322836118716550
-    },
-    "2:10": {
-      "questIDHigh:4": 6393847662955875738,
-      "questIDLow:4": -8810543536998436147
     }
   },
   "properties:10": {
@@ -37,6 +33,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nProject Godforge",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

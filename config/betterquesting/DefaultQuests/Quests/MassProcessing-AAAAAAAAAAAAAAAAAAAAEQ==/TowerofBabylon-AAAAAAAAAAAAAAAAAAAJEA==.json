@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.\n\nThis can handle up to §6§l256§r Recipes at once and provides a different set of bonuses depending on which distillation mode is active.",
+      "desc:8": "Well, what might happen if you combine 64 Distillation Towers in one...? You know... you get a 54-block-tall Multiblock.\n\nThis can handle up to §6§l256§r Recipes at once and provides a different set of bonuses depending on which distillation mode is active.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -33,6 +33,20 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lTower of Babylon",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
       "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
@@ -47,7 +61,21 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2320,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
